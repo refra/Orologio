@@ -6,35 +6,45 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 public class FragmentAdapter extends FragmentPagerAdapter {
 
-        public FragmentAdapter(FragmentManager supportFragmentManager) {
-            super(supportFragmentManager);
-        }
+    private static final int NUM_PAGES = 5;
+    private Fragment cron,sveglia,tempi,fuso,ora;
+    public FragmentAdapter(FragmentManager supportFragmentManager) {
+        super(supportFragmentManager);
+        cron=new CronometroFragment();
+        sveglia=new SvegliaFragment();
+        tempi= new TempiSalvatiFragment();
+        fuso= new FusoOrarioFragment();
+        ora= new OraFragment();
+    }
 
         @Override
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    return new CronometroFragment();
+                    return cron;
 
                 case 1:
-                    return new SvegliaFragment();
+                    return sveglia;
 
                 case 2:
-                    return new TempiSalvatiFragment();
+                    return tempi;
 
                 case 3:
-                    return new FusoOrarioFragment();
+                    return fuso;
 
                 case 4:
-                    return new OraFragment();
+                    return ora;
 
                 default:
                     return null;
             }
         }
 
+
         @Override
         public int getCount() {
-            return 5;
+
+        return NUM_PAGES;
+
         }
-    }
+}

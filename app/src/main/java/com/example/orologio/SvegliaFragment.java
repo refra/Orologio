@@ -2,9 +2,7 @@ package com.example.orologio;
 
 import android.content.Intent;
 import android.os.Bundle;
-
 import androidx.fragment.app.Fragment;
-
 import android.provider.AlarmClock;
 import android.view.LayoutInflater;
 import android.view.View;

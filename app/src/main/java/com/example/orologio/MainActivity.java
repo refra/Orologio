@@ -1,32 +1,26 @@
 package com.example.orologio;
 
-//import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
-import androidx.viewpager2.widget.ViewPager2;
 
-import android.content.Intent;
+
 import android.os.Bundle;
-import android.provider.AlarmClock;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.TextClock;
 import com.google.android.material.tabs.TabLayout;
+
+import java.util.List;
+import java.util.TimeZone;
+
 
 public class MainActivity extends FragmentActivity {
 
-    private static final int NUM_PAGES = 5;
-
-
     private ViewPager viewPager;
-
     private FragmentStateAdapter pagerAdapter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,12 +31,24 @@ public class MainActivity extends FragmentActivity {
         viewPager = findViewById(R.id.pager);
         viewPager.setAdapter(fa);
         tab.setupWithViewPager(viewPager);
-    }
-    public void setFuso(String fuso){
-        TextView tv= findViewById(R.id.textFuso);
-        tv.setText(fuso);
+
 
     }
+
+    //metodi per gestire il db, c'è un piccolo errore da sistemare
+    /*public void leggiDB(){
+        MySQLiteHelper db= new MySQLiteHelper(this);
+        List<Tempi> list= db.getAllTempi();
+        final ListView listView= (ListView)findViewById(R.id.list_view);
+        final ArrayAdapter<Tempi> adapter= new ArrayAdapter<Tempi>(this, android.R.layout.simple_list_item_1, list);
+        listView.setAdapter(adapter);
+    }
+
+    public void aggiungiTempo(String tempo){
+        MySQLiteHelper db= new MySQLiteHelper(this);
+        db.addTempo(tempo);
+    }*/
+
 
     @Override
     public void onBackPressed() {

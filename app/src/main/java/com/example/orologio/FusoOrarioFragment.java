@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.Spinner;
 
 public class FusoOrarioFragment extends Fragment {
@@ -33,8 +32,7 @@ public class FusoOrarioFragment extends Fragment {
             @Override
             public void onClick(View v){
                 fuso= spin.getSelectedItem().toString();
-                MainActivity ma = new MainActivity();
-                ma.setFuso(fuso);
+                OraFragment.set_fuso(true, fuso);
             }
 
         });

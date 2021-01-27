@@ -22,4 +22,22 @@
         android:textSize="50dp"
         android:textStyle="bold"
         android:format24Hour="HH:mm:ss"/>
+    <TextClock
+        android:visibility="invisible"
+        android:id="@+id/textClock2"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:format24Hour="HH:mm:ss"/>
+    <TextView
+        android:id="@+id/textFuso"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Fuso orario non selezionato"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 </LinearLayout>
