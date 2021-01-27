@@ -56,6 +56,8 @@ public class SvegliaFragment extends Fragment {
             @Override
             public void onClick(View v){
                 createAlarm ("Sveglia", Integer.parseInt (editText.getText().toString()), Integer.parseInt(editText2.getText().toString()));
+                editText.setText("");
+                editText2.setText("");
             }
         });
         return rootView;

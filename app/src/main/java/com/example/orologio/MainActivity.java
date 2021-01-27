@@ -15,6 +15,7 @@ import android.provider.AlarmClock;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.google.android.material.tabs.TabLayout;
 
@@ -37,7 +38,11 @@ public class MainActivity extends FragmentActivity {
         viewPager.setAdapter(fa);
         tab.setupWithViewPager(viewPager);
     }
+    public void setFuso(String fuso){
+        TextView tv= findViewById(R.id.textFuso);
+        tv.setText(fuso);
 
+    }
 
     @Override
     public void onBackPressed() {

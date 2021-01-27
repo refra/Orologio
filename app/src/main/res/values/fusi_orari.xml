@@ -2,36 +2,32 @@
 <resources>
     <string-array name="fusi_orari">
         <item>----------------------------------------------------------------------------</item>
-        <item>GMT   Greenwich Mean Time	         GMT+0</item>
-        <item>ECT	European Central Time	     GMT+1:00</item>
-        <item>EET	Eastern European Time	     GMT+2:00</item>
-        <item>ART	Egypt Standard Time Arabic	 GMT+2:00</item>
-        <item>EAT	Eastern African Time	     GMT+3:00</item>
-        <item>MET	Middle East Time	         GMT+3:30</item>
-        <item>NET	Near East Time	             GMT+4:00</item>
-        <item>PLT	Pakistan Lahore Time	     GMT+5:00</item>
-        <item>IST	India Standard Time	         GMT+5:30</item>
-        <item>BST	Bangladesh Standard Time	 GMT+6:00</item>
-        <item>VST	Vietnam Standard Time	     GMT+7:00</item>
-        <item>CTT	China Taiwan Time	         GMT+8:00</item>
-        <item>JST	Japan Standard Time	         GMT+9:00</item>
-        <item>ACT	Australia Central Time	     GMT+9:30</item>
-        <item>AET	Australia Eastern Time	     GMT+10:00</item>
-        <item>SST	Solomon Standard Time	     GMT+11:00</item>
-        <item>NST	New Zealand Standard Time	 GMT+12:00</item>
-        <item>MIT	Midway Islands Time	         GMT-11:00</item>
-        <item>HST	Hawaii Standard Time	     GMT-10:00</item>
-        <item>AST	Alaska Standard Time	     GMT-9:00</item>
-        <item>PST	Pacific Standard Time	     GMT-8:00</item>
-        <item>PNT	Phoenix Standard Time	     GMT-7:00</item>
-        <item>MST	Mountain Standard Time	     GMT-7:00</item>
-        <item>CST	Central Standard Time	     GMT-6:00</item>
-        <item>EST	Eastern Standard Time	     GMT-5:00</item>
-        <item>IET	Indiana Eastern Standard TimeGMT-5:00</item>
-        <item>PRT	PuertoRico and USVirginIslands Time GMT-4:00</item>
-        <item>CNT	Canada Newfoundland Time	 GMT-3:30</item>
-        <item>AGT	Argentina Standard Time	     GMT-3:00</item>
-        <item>BET	Brazil Eastern Time	         GMT-3:00</item>
-        <item>CAT	Central African Time	     GMT-1:00</item>
+        <item>GMT   Greenwich Mean Time	              GMT+0</item>
+        <item>ECT	European Central Time	          GMT+1:00</item>
+        <item>EET	Eastern European Time	          GMT+2:00</item>
+        <item>ART	Egypt Standard Time Arabic	      GMT+2:00</item>
+        <item>EAT	Eastern African Time	          GMT+3:00</item>
+        <item>MET	Middle East Time	              GMT+3:30</item>
+        <item>NET	Near East Time	                  GMT+4:00</item>
+        <item>PLT	Pakistan Lahore Time	          GMT+5:00</item>
+        <item>IST	India Standard Time	              GMT+5:30</item>
+        <item>BST	Bangladesh Standard Time	      GMT+6:00</item>
+        <item>VST	Vietnam Standard Time	          GMT+7:00</item>
+        <item>CTT	China Taiwan Time	              GMT+8:00</item>
+        <item>JST	Japan Standard Time	              GMT+9:00</item>
+        <item>ACT	Australia Central Time	          GMT+9:30</item>
+        <item>AET	Australia Eastern Time	          GMT+10:00</item>
+        <item>SST	Solomon Standard Time	          GMT+11:00</item>
+        <item>NST	New Zealand Standard Time	      GMT+12:00</item>
+        <item>MIT	Midway Islands Time	              GMT-11:00</item>
+        <item>HST	Hawaii Standard Time	          GMT-10:00</item>
+        <item>AST	Alaska Standard Time	          GMT-9:00</item>
+        <item>PST	Pacific Standard Time	          GMT-8:00</item>
+        <item>PNT	Phoenix Standard Time	          GMT-7:00</item>
+        <item>CST	Central Standard Time	          GMT-6:00</item>
+        <item>EST	Eastern Standard Time	          GMT-5:00</item>
+        <item>CNT	Canada Newfoundland Time	      GMT-3:30</item>
+        <item>AGT	Argentina Standard Time	          GMT-3:00</item>
+        <item>CAT	Central African Time	          GMT-1:00</item>
     </string-array>
 </resources>
